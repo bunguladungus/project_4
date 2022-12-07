@@ -1,5 +1,0 @@
-Facilities:
-Outpatient Clinic
-Admitting
-Pharmacy
-Emergency

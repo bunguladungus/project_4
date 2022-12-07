@@ -13,11 +13,12 @@ class Patient:
     def __str__(self):
         return f'{self.id} {self.name} {self.diagnosis} {self.gender} {self.age}'
 
-
-
     #formats text to be writen into patients.txt
     def formatPatientInfo(self):
+        formated = ('_'.join([self.id, self.name, self.diagnosis, self.gender, self.age]))
+        return formated
+        
+        
 
-        pass
 
 
